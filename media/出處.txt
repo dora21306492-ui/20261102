@@ -1,0 +1,10 @@
+# 格式：圖片 → 代號、作者、授權（用直線隔開）；聲音 → audio:代號、作者、授權。這行是說明，程式會略過
+bear|Abu0804|CC BY-SA 3.0
+magpie|brian25_tw|CC BY-SA 4.0
+macaque|peterwchen (iNaturalist)|CC BY 4.0
+muntjac|壽山動物園 Shoushan Zoo|Attribution（政府資料開放宣告）
+leopardcat|ourskyuamlea (Pixabay)|CC0 1.0
+emperor|Peellden|CC BY-SA 4.0
+audio:magpie|Sunny Tseng, XC631376, xeno-canto.org/631376|CC BY-NC-SA 4.0
+audio:barbet|Lars Lachmann, XC1034475, xeno-canto.org/1034475|CC BY-NC-SA 4.0
+audio:swinhoe|Somkiat Pakapinyo (Chai), XC596209, xeno-canto.org/596209|CC BY-NC-SA 4.0

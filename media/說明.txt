@@ -1,0 +1,10 @@
+這個資料夾放「選用」的媒體檔，沒有放也能正常執行。
+
+1. 動物叫聲：<物種代號>.mp3（例如 magpie.mp3、barbet.mp3、treefrog.mp3、swinhoe.mp3）→ 點選闖關會出「聽聲音」題
+2. 動畫：<物種代號>.gif → 會取代程式畫的動物插圖
+3. 真實照片：<物種代號>.jpg（或 .png）→ 明信片拍照模式會用它當主圖
+4. 照片出處：出處.txt，每行一張，格式：物種代號|作者|授權
+   例如：bear|某某某|CC BY-SA 4.0
+   請只使用你有權使用的照片（例如 Wikimedia Commons 上的 CC 授權照片），並如實填寫作者與授權。
+
+物種代號：bear magpie macaque salmon pheasant muntjac leopardcat barbet treefrog emperor pangolin sambar serow salamander swinhoe
