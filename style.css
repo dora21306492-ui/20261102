@@ -1,0 +1,3 @@
+/* 全螢幕畫布：去掉邊界與捲軸，並避免手機拖曳時頁面跟著捲動 */
+html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #eaf4ea; overscroll-behavior: none; }
+canvas { display: block; touch-action: none; -webkit-user-select: none; user-select: none; }
