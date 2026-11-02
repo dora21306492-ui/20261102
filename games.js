@@ -336,6 +336,13 @@ function drawMC() {
     paraText(shown, tx + pad, y + F(46), ts, '#333', ts * 1.5, LEFT);
     button(tx + tw - F(170) - pad, y + chH - bh - F(12), F(170), bh, mc.idx + 1 >= mc.qs.length ? '看成績 →' : '下一題 →', '#38b25c', mcNext, { size: F(20) });
   }
+  // 鍵盤提示：電腦（非觸控）才顯示，讓玩家知道可以用鍵盤作答
+  if (FEATURES.F7_keyboard && (wide || !usingTouch)) {
+    const kt = mc.picked < 0 ? '⌨ 鍵盤：按 1～4 選答案' : '⌨ 鍵盤：按 Enter（或空白鍵）進入下一題';
+    const ks = F(wide ? 17 : 14); textSize(ks); const kw = textWidth(kt) + ks * 1.6, kh = ks * 1.9;
+    noStroke(); fill(255, 255, 255, 215); rect(W / 2 - kw / 2, H - kh - F(8), kw, kh, kh / 2);
+    txt(kt, W / 2, H - kh / 2 - F(8) + 1, ks, '#2f5f9e', CENTER, true);
+  }
 }
 
 // 標本標籤式選項：左邊藍色編號章，文字靠左，滑過去外框變橘色
